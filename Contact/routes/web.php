@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('contacts', 'ContactController');
+
+
+//// IS USELESS:
+//Route::get('contacts', 'ContactController@index');
+
+
