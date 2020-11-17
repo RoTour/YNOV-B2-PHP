@@ -48,7 +48,10 @@ class ContactController extends Controller
      */
     public function show($id)
     {
-        return "Sowing: " . DB::select("select * from contacts where id=" . $id);
+        return view(
+            'contacts/show',
+            ["contact" => DB::select("select * from contacts where id=" . $id)[0]]
+        );
     }
 
 
@@ -59,7 +62,7 @@ class ContactController extends Controller
     {
         return view(
             "contacts/edit",
-            ["contact" => DB::select("select * from contacts where id=" . $id)]);
+            ["contact" => DB::select("select * from contacts where id=" . $id)[0]]);
     }
 
 
@@ -85,6 +88,8 @@ class ContactController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $query = "DELETE FROM contacts WHERE id=".$id;
+        DB::delete($query);
+        return redirect()->action([ContactController::class, 'index']);
     }
 }
