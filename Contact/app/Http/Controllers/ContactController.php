@@ -3,9 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Http;
 
 class ContactController extends Controller
 {
@@ -34,10 +32,10 @@ class ContactController extends Controller
     public function store(Request $request)
     {
         $query = "INSERT INTO contacts (firstname, lastname, email, phone) values (" .
-            "'" . $request->input('firstname') . "'" . ", " .
-            "'" . $request->input('lastname') . "'" . ", " .
-            "'" . $request->input('email') . "'" . ", " .
-            "'" . $request->input('phone') . "')";
+            "'" . $request->input('firstname')  . "'" . ", " .
+            "'" . $request->input('lastname')   . "'" . ", " .
+            "'" . $request->input('email')      . "'" . ", " .
+            "'" . $request->input('phone')      . "')";
         DB::insert($query);
         return redirect()->action([ContactController::class, 'index']);
     }
@@ -73,11 +71,11 @@ class ContactController extends Controller
     {
         $query =
             "UPDATE contacts SET " .
-            "firstname = " . "'" . $request->input("firstname") . "'" . ", " .
-            "lastname = " . "'" . $request->input("lastname") . "'" . ", " .
-            "email = " . "'" . $request->input("email") . "'" . ", " .
-            "phone = " . "'" . $request->input("phone") . "'" .
-            "WHERE id=" . $id;
+            "firstname = "  . "'" . $request->input("firstname")   . "'" . ", " .
+            "lastname = "   . "'" . $request->input("lastname")    . "'" . ", " .
+            "email = "      . "'" . $request->input("email")       . "'" . ", " .
+            "phone = "      . "'" . $request->input("phone")       . "'" .
+            "WHERE id = "   . $id;
         DB::insert($query);
         return redirect()->action([ContactController::class, 'index']);
     }
