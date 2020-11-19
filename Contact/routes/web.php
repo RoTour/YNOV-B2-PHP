@@ -19,6 +19,12 @@ Route::get('/', function () {
 
 Route::resource('contacts', 'ContactController');
 
+Route::resource('articles', 'ArticleController');
+
+Route::get('articles/{id}/details', "ArticleController@details")
+    ->name("articles.details")
+    ->where("id", "[0-9]+");
+
 
 //// IS USELESS:
 //Route::get('contacts', 'ContactController@index');
