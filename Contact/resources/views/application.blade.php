@@ -16,7 +16,6 @@
 <body>
 @include('navbar')
 <div class="container">
-    <h1>@yield('page-title')</h1>
     @yield('page-content')
 </div>
 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Article;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class ArticleController extends Controller
 {
@@ -12,8 +13,13 @@ class ArticleController extends Controller
      */
     public function index(Request $request)
     {
-        $articles = Article::all();
+
         $search = $request->get("search");
+        if($search){
+            $articles = Article::where('title', 'like', '%'.$search.'%')->get();
+        }else{
+            $articles = Article::all();
+        }
         return view("articles.index", ["articles" => $articles, "search" => $search]);
     }
 
