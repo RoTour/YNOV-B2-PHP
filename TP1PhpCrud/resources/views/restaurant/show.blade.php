@@ -31,6 +31,7 @@
                 </ul>
                 <div class="d-flex">
                     <a class="btn btn-outline-primary mr-2" href="{{ route("employee.create", ["restaurant"=>$resto]) }}">Add Employee</a>
+                    <a class="btn btn-outline-primary mr-2" href="{{ route("deliverer.index", ["restaurant"=>$resto]) }}">Add Deliverers</a>
                     <a class="btn btn-outline-info mr-2" href="{{ route("restaurant.edit", $resto) }}">Edit</a>
                     <form action="{{ route("restaurant.destroy", $resto->id) }}" method="post">
                         <input class="btn btn-outline-danger" type="submit" value="Delete"/>

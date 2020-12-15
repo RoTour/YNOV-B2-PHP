@@ -56,29 +56,30 @@ class EmployeeController extends Controller
 
     /**
      * Display the specified resource.
+     *
+     * @param Employee $employee
+     * @return View
      */
-    public function show(Employee $employee)
-    {
+    public function show(Employee $employee): View {
         return view("employee.show", ["employee" => $employee]);
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Employee  $employee
-     * @return \Illuminate\Http\Response
+     * @param Employee $employee
+     * @return View
      */
-    public function edit(Employee $employee)
-    {
-        //
+    public function edit(Employee $employee): View {
+        return \view("employee.edit", ["employee"=>$employee]);
     }
 
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Employee  $employee
-     * @return \Illuminate\Http\Response
+     * @param  Request  $request
+     * @param Employee $employee
+     * @return View
      */
     public function update(Request $request, Employee $employee)
     {
@@ -88,7 +89,7 @@ class EmployeeController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Employee  $employee
+     * @param Employee $employee
      * @return \Illuminate\Http\Response
      */
     public function destroy(Employee $employee)

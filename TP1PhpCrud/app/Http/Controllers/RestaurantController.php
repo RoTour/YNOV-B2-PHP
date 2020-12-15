@@ -47,7 +47,6 @@ class RestaurantController extends Controller
         $restaurant->description = $request->input("description");
         $restaurant->type = $request->input("type");
         $restaurant->state = $request->input("state");
-
         $restaurant->save();
 
         $newAddress = new Address();
@@ -55,9 +54,15 @@ class RestaurantController extends Controller
         $newAddress->city = $request->input("city");
         $newAddress->postal = $request->input("postcode");
         $restaurant->address()->save($newAddress);
-
-
         return redirect()->action([RestaurantController::class, 'index']);
+    }
+
+    public function storeDeliverers(Request $request){
+        $restaurant = Restaurant::find($request->input("restaurant_id"));
+        $restaurant->deliverers()->detach();
+        $restaurant->deliverers()->attach($request->input("deliverers"));
+
+        return redirect()->route("deliverer.index", ["restaurant" => $restaurant->id]);
     }
 
     /**

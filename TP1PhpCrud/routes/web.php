@@ -17,6 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', "RestaurantController@index");
 Route::resource("restaurant", "RestaurantController");
 Route::resource("employee", "EmployeeController");
+Route::resource("deliverer", "DelivererController");
+Route::post("restaurant/storedeliverers", "RestaurantController@storeDeliverers")
+->name("restaurant.store_deliverers");
 
 Route::get("test", function () {
     $address = \App\Address::find(2);
@@ -28,8 +31,7 @@ Route::get("test", function () {
 Route::get("testmanytomany", function () {
     $resto = \App\Restaurant::first();
     $newDeli = \App\Deliverer::first();
-    $resto->deliverers()->detach($newDeli->id);
-
+//    $resto->deliverers()->detach($newDeli->id);
     $resto->deliverers()->attach($newDeli->id);
 
 
