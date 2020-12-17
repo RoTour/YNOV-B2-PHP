@@ -1,6 +1,5 @@
 <?php
 
-use App\Restaurant;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,23 +18,26 @@ Route::resource("restaurant", "RestaurantController");
 Route::resource("employee", "EmployeeController");
 Route::resource("deliverer", "DelivererController");
 Route::post("restaurant/storedeliverers", "RestaurantController@storeDeliverers")
-->name("restaurant.store_deliverers");
+	->name("restaurant.store_deliverers");
+Route::resource("contact", "ContactController");
+Route::get("confirm_contact", "ContactController@confirm")
+	->name("contact.confirm");
 
 Route::get("test", function () {
-    $address = \App\Address::find(2);
+  $address = \App\Address::find(2);
 
-    return $address->restaurant;
+  return $address->restaurant;
 
 });
 
 Route::get("testmanytomany", function () {
-    $resto = \App\Restaurant::first();
-    $newDeli = \App\Deliverer::first();
+  $resto = \App\Restaurant::first();
+  $newDeli = \App\Deliverer::first();
 //    $resto->deliverers()->detach($newDeli->id);
-    $resto->deliverers()->attach($newDeli->id);
+  $resto->deliverers()->attach($newDeli->id);
 
 
-    echo "<pre>", \App\Restaurant::first()->deliverers, "<br>" ,"</pre>";
+  echo "<pre>", \App\Restaurant::first()->deliverers, "<br>", "</pre>";
 
 
 });

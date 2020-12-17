@@ -32,6 +32,9 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/app/Deliverer.php" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -152,9 +155,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RoTourBlog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/mail" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -162,15 +164,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\TP1PhpCrud\resources\views\mail" />
+      <recent name="C:\laragon\www\TP1PhpCrud\resources\views\restaurant" />
       <recent name="C:\laragon\www\TP1PhpCrud\resources\views" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\TP1PhpCrud\resources\views\restaurant" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\laragon\www\TP1PhpCrud\resources\views" />
     </key>
   </component>
@@ -196,7 +200,11 @@
       <workItem from="1607864508876" duration="1246000" />
       <workItem from="1607869544795" duration="1255000" />
       <workItem from="1607976742276" duration="1456000" />
-      <workItem from="1608017089156" duration="7248000" />
+      <workItem from="1608017089156" duration="14831000" />
+      <workItem from="1608052866077" duration="2994000" />
+      <workItem from="1608104244143" duration="62000" />
+      <workItem from="1608104511258" duration="5026000" />
+      <workItem from="1608190288847" duration="9779000" />
     </task>
     <task id="LOCAL-00001" summary="Tp is done">
       <created>1606382256758</created>

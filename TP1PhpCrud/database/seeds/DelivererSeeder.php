@@ -2,15 +2,13 @@
 
 use Illuminate\Database\Seeder;
 
-class DelivererSeeder extends Seeder
-{
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
-    public function run()
-    {
-        //
-    }
+class DelivererSeeder extends Seeder {
+  /**
+   * Run the database seeds.
+   *
+   * @return void
+   */
+  public function run() {
+    //
+  }
 }

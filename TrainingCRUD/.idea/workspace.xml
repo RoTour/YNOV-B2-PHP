@@ -19,124 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b71659a-a089-42a7-9dd6-83501c3a853d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Couizine/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/.idea/Couizine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Http/Controllers/IngredientsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Http/Middleware/TrustHosts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Ingredients.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/config/cors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/database/factories/IngredientsFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/database/migrations/2020_11_24_102113_create_ingredients_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/database/seeds/IngredientsSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/resources/views/_navbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/resources/views/application.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/resources/views/ingredients/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/resources/views/ingredients/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/resources/views/ingredients/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/resources/views/ingredients/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Couizine/webpack.mix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/TrainingCRUD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Pages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/_navbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/application.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/contact/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/contact/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/contact/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/contact/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/contact/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Contact/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contact/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Contact/routes/web.php" afterDir="false" />
+    <list default="true" id="6b71659a-a089-42a7-9dd6-83501c3a853d" name="Default Changelist" comment="1h crud training (success)">
+      <change afterPath="$PROJECT_DIR$/../LienGitlab.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1PhpCrud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1PhpCrud/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,8 +183,17 @@
       <option name="presentableId" value="Default" />
       <updated>1606138008856</updated>
       <workItem from="1606138009897" duration="5605000" />
-      <workItem from="1606215234487" duration="2213000" />
+      <workItem from="1606215234487" duration="3011000" />
+      <workItem from="1606375510795" duration="4093000" />
     </task>
+    <task id="LOCAL-00001" summary="1h crud training (success)">
+      <created>1606221268655</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606221268655</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,5 +213,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="1h crud training (success)" />
+    <option name="LAST_COMMIT_MESSAGE" value="1h crud training (success)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="324" y="116" key="Vcs.Push.Dialog.v2" timestamp="1606221273480">
+      <screen x="105" y="0" width="1255" height="768" />
+    </state>
+    <state x="324" y="116" key="Vcs.Push.Dialog.v2/1465.0.1261.768/105.0.1255.768@105.0.1255.768" timestamp="1606221273480" />
   </component>
 </project>

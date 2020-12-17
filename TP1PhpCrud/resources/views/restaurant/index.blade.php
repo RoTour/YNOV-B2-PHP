@@ -5,6 +5,7 @@
 @section('page-content')
     <div class="container">
 
+        <a class="btn btn-outline-success mt-3" href="{{ route("restaurant.create") }}">Add Restaurant</a>
         @if($search)
             <p class="mt-3">Search result for: {{ $search }}</p>
             <a href="{{route("restaurant.index")}}" class="mb-5">Return to list</a>
