@@ -1,5 +1,6 @@
 <?php
 
+use App\Student;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('student.index', ["students" => Student::all()]);
+});
+
+Route::resource("student", "StudentController");
+Route::resource("module", "ModuleController");
+Route::resource("promo", "PromoController");
+
+Route::get("test", function (){
+	$student = Student::first();
+	return $student->promo;
 });

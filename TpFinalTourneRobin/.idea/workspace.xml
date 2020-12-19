@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4c75fc1-db72-4271-a466-0bf7109e338a" name="Default Changelist" comment="Factories/seeders/migrations ok">
+    <list default="true" id="f4c75fc1-db72-4271-a466-0bf7109e338a" name="Default Changelist" comment="on file was missing (Promo.php)">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/navbar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/student/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/student/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/student/form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/student/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/student/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP1PhpCrud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1PhpCrud/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP1PhpCrud/app/Restaurant.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1PhpCrud/app/Restaurant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Promo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Promo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Student.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +27,9 @@
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/resources/views/student/index.blade.php" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -162,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608365762014</updated>
-      <workItem from="1608365764008" duration="2781000" />
+      <workItem from="1608365764008" duration="8794000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with models created (-a)">
       <created>1608366021801</created>
@@ -178,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608368335625</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="on file was missing (Promo.php)">
+      <created>1608368628748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608368628748</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +222,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit with models created (-a)" />
     <MESSAGE value="Factories/seeders/migrations ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factories/seeders/migrations ok" />
+    <MESSAGE value="on file was missing (Promo.php)" />
+    <option name="LAST_COMMIT_MESSAGE" value="on file was missing (Promo.php)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
