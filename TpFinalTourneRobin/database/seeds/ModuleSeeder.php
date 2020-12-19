@@ -1,15 +1,17 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
-class PromoSeeder extends Seeder {
+class ModuleSeeder extends Seeder {
     /**
      * Run the database seeds.
      *
      * @return void
+     * @throws Exception
      */
     public function run() {
-        factory(\App\Promo::class, 10)->create()->each(function ($item) {
+        factory(\App\Module::class, 5)->create()->each(function ($item) {
             $item->save();
         });
     }

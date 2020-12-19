@@ -2,14 +2,14 @@
 
 use Illuminate\Database\Seeder;
 
-class PromoSeeder extends Seeder {
+class StudentSeeder extends Seeder {
     /**
      * Run the database seeds.
      *
      * @return void
      */
     public function run() {
-        factory(\App\Promo::class, 10)->create()->each(function ($item) {
+        factory(\App\Student::class, 200)->create()->each(function ($item) {
             $item->save();
         });
     }
