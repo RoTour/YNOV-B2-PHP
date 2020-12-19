@@ -28,7 +28,7 @@
 			@foreach($promo_list as $promo)
 				<div class="form-check">
 					<input class="form-check-input" type="radio" name="promo_id" value="{{ $promo->id }}" id="promo-{{ $promo->id }}"
-								 @if(isset($editing_student) && $promo->id == $editing_student->promo->id) checked @endif required>
+								 @if(isset($editing_student) && isset($editing_student->promo) && $promo->id == $editing_student->promo->id) checked @endif required>
 					<label class="form-check-label" for="promo-{{ $promo->id }}">{{ $promo->name." ".$promo->speciality }}</label>
 				</div>
 			@endforeach

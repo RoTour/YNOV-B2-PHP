@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4c75fc1-db72-4271-a466-0bf7109e338a" name="Default Changelist" comment="on file was missing (Promo.php)">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/navbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/student/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/student/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/student/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/student/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/student/show.blade.php" afterDir="false" />
+    <list default="true" id="f4c75fc1-db72-4271-a466-0bf7109e338a" name="Default Changelist" comment="Completed CRUD for Student">
+      <change afterPath="$PROJECT_DIR$/resources/views/parts/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/promo/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/promo/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/promo/form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/promo/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/promo/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Contact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Contact/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP1PhpCrud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1PhpCrud/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP1PhpCrud/app/Restaurant.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1PhpCrud/app/Restaurant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PromoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PromoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Module.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Promo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Promo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_19_081930_create_students_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_19_081930_create_students_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/student/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/student/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +179,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608365762014</updated>
-      <workItem from="1608365764008" duration="8794000" />
+      <workItem from="1608365764008" duration="17819000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with models created (-a)">
       <created>1608366021801</created>
@@ -201,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608368628748</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed CRUD for Student">
+      <created>1608374707321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608374707321</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +231,8 @@
     <MESSAGE value="Initial commit with models created (-a)" />
     <MESSAGE value="Factories/seeders/migrations ok" />
     <MESSAGE value="on file was missing (Promo.php)" />
-    <option name="LAST_COMMIT_MESSAGE" value="on file was missing (Promo.php)" />
+    <MESSAGE value="Completed CRUD for Student" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed CRUD for Student" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
