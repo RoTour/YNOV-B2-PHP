@@ -22,7 +22,95 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b092741-5866-485e-bbd1-39af3f4c9089" name="Default Changelist" comment="can add employee to restaurant from restaurant show page" />
+    <list default="true" id="8b092741-5866-485e-bbd1-39af3f4c9089" name="Default Changelist" comment="add mail + many other things">
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/.idea/TpFinalTourneRobin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +244,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/mail" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TpFinalTourneRobin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -204,7 +292,8 @@
       <workItem from="1608052866077" duration="2994000" />
       <workItem from="1608104244143" duration="62000" />
       <workItem from="1608104511258" duration="5026000" />
-      <workItem from="1608190288847" duration="9779000" />
+      <workItem from="1608190288847" duration="10716000" />
+      <workItem from="1608365094655" duration="777000" />
     </task>
     <task id="LOCAL-00001" summary="Tp is done">
       <created>1606382256758</created>
@@ -255,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607608958461</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add mail + many other things">
+      <created>1608207148281</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608207148281</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +381,7 @@
     <MESSAGE value="Fixed Crud for new db schema" />
     <MESSAGE value="add employees + created deliverers" />
     <MESSAGE value="can add employee to restaurant from restaurant show page" />
-    <option name="LAST_COMMIT_MESSAGE" value="can add employee to restaurant from restaurant show page" />
+    <MESSAGE value="add mail + many other things" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mail + many other things" />
   </component>
 </project>
