@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Module;
 use App\Promo;
 use App\Student;
 use Exception;
@@ -13,10 +14,19 @@ class StudentController extends Controller {
 	/**
 	 * Display a listing of the resource.
 	 *
+	 * @param Request $request
 	 * @return View
 	 */
-	public function index(): View {
-		return view("student.index", ["students" => Student::all()]);
+	public function index(Request $request): View {
+		$search = $request->get("search");
+		if($search){
+			$students = Student::where('firstname', 'like', '%'.$search.'%')
+				->orWhere('firstname', 'like', '%'.$search.'%')
+				->orWhere('email', 'like', '%'.$search.'%')
+				->get();
+		} else { $students = Student::all(); }
+
+		return view("student.index", ["students" => $students, "search" => $search]);
 	}
 
 	/**
@@ -25,7 +35,13 @@ class StudentController extends Controller {
 	 * @return View
 	 */
 	public function create(): View {
-		return \view("student.create", ["promo_list" => Promo::all()]);
+		return \view(
+			"student.create",
+			[
+				"promos_list" => Promo::all(),
+				"modules_list" => Module::all()
+			]
+		);
 	}
 
 	/**
@@ -62,7 +78,14 @@ class StudentController extends Controller {
 	 * @return View
 	 */
 	public function edit(Student $student): View {
-		return \view("student.edit", ["editing_student" => $student, "promo_list" => Promo::all()]);
+		return \view(
+			"student.edit",
+			[
+				"editing_student" => $student,
+				"promos_list" => Promo::all(),
+				"modules_list" => Module::all()
+			]
+		);
 	}
 
 	/**
@@ -79,6 +102,8 @@ class StudentController extends Controller {
 		$student->promo_id = $request->promo_id;
 
 		$student->save();
+		$student->modules()->detach();
+		$student->modules()->attach($request->modules);
 		return redirect()->route("student.index");
 	}
 

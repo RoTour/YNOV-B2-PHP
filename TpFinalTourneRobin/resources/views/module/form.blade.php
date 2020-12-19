@@ -25,7 +25,7 @@
 			</div>
 
 
-			<p class="font-weight-bold mt-3 font" style="font-size: 2em">Students : </p>
+			<p class="font-weight-bold mt-3 font" style="font-size: 2em">Promotions : </p>
 			<div class="row col-12">
 				@foreach($promos_list as $promo)
 					<div class="form-check col-3">

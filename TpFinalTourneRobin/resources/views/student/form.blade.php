@@ -25,13 +25,30 @@
 				</div>
 			</div>
 
-			@foreach($promo_list as $promo)
-				<div class="form-check">
-					<input class="form-check-input" type="radio" name="promo_id" value="{{ $promo->id }}" id="promo-{{ $promo->id }}"
-								 @if(isset($editing_student) && isset($editing_student->promo) && $promo->id == $editing_student->promo->id) checked @endif required>
-					<label class="form-check-label" for="promo-{{ $promo->id }}">{{ $promo->name." ".$promo->speciality }}</label>
-				</div>
-			@endforeach
+			<p class="font-weight-bold mt-3 font" style="font-size: 2em">Promotions : </p>
+			<div class="row col-12">
+				@foreach($promos_list as $promo)
+					<div class="form-check col-3">
+						<input class="form-check-input" type="radio" name="promo_id" value="{{ $promo->id }}"
+									 id="promo-{{ $promo->id }}"
+									 @if(isset($editing_student) && isset($editing_student->promo) && $editing_student->promo->id == $promo->id) checked @endif>
+						<label class="form-check-label"
+									 for="promo-{{ $promo->id }}">{{ $promo->infos() }}</label>
+					</div>
+				@endforeach
+			</div>
+
+			<p class="font-weight-bold mt-3 font" style="font-size: 2em">Modules : </p>
+			<div class="row col-12">
+				@foreach($modules_list as $module)
+					<div class="form-check col-3">
+						<input type="checkbox" class="form-check-input" name="modules[]" value="{{ $module->id }}"
+									 id="module-{{ $module->id }}"
+									 @if(isset($editing_student) && $editing_student->modules->contains($module->id)) checked @endif>
+						<label class="form-check-label" for="module-{{ $module->id }}">{{ $module->name }}</label>
+					</div>
+				@endforeach
+			</div>
 
 			<button type="submit" class="btn btn-primary mt-3 mb-5">Submit</button>
 		</form>

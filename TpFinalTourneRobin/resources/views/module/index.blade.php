@@ -1,7 +1,13 @@
 @extends("parts.index")
 
 @section("title") Modules @endsection
-@section("header") Modules at Fiction Ynov Campus: @endsection
+@section("header")
+	@if($search)
+		Modules - Result for: {{ $search }}
+	@else
+		Modules at Fiction Ynov Campus:
+	@endif
+@endsection
 @section("addButtonRoute") {{ route("module.create") }} @endsection
 @section("addButtonText") Add Module @endsection
 @section("tableHead")

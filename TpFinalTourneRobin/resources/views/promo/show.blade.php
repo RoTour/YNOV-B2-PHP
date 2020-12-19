@@ -8,6 +8,15 @@
 		<div class="card" style="width: 36rem;">
 			<div class="card-body">
 				<h5 class="card-title">{{ $promo->infos() }}</h5>
+
+				<h6 class="mt-3">Modules: </h6>
+				<div class="row">
+					@foreach($promo->modules as $promo_module)
+						<a class="col-6" href="{{ route("student.show", $promo_module) }}">
+							{{ $promo_module->name }}</a>
+					@endforeach
+				</div>
+
 				<h6 class="mt-3">Students: </h6>
 				<div class="row">
 					@foreach($promo->students as $promo_student)

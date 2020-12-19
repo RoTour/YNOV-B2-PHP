@@ -23,17 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b092741-5866-485e-bbd1-39af3f4c9089" name="Default Changelist" comment="add mail + many other things">
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/module/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/module/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/module/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/module/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/module/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Contact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Contact/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Controllers/ModuleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Controllers/ModuleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Module.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Controllers/PromoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Controllers/PromoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Controllers/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Controllers/StudentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/module/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/module/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/module/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/module/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/promo/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/promo/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/promo/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/promo/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/promo/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/promo/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/promo/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/promo/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/student/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/student/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/student/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/student/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/student/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/student/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,6 +222,7 @@
       <workItem from="1608190288847" duration="10716000" />
       <workItem from="1608365094655" duration="1249000" />
       <workItem from="1608366399368" duration="8459000" />
+      <workItem from="1608410580640" duration="439000" />
     </task>
     <task id="LOCAL-00001" summary="Tp is done">
       <created>1606382256758</created>

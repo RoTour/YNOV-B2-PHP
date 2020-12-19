@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Module;
 use App\Promo;
 use App\Student;
 use Illuminate\Http\RedirectResponse;
@@ -12,10 +13,18 @@ class PromoController extends Controller {
 	/**
 	 * Display a listing of the resource.
 	 *
+	 * @param Request $request
 	 * @return View
 	 */
-	public function index(): View {
-		return view("promo.index", ["promos_list" => Promo::all()]);
+	public function index(Request $request): View {
+		$search = $request->get("search");
+		if($search){
+			$promos = Promo::where('name', 'like', '%'.$search.'%')
+				->orWhere('speciality', 'like', '%'.$search.'%')
+				->get();
+		} else { $promos = Promo::all(); }
+
+		return view("promo.index", ["promos_list" => $promos, "search" => $search]);
 	}
 
 	/**
@@ -24,7 +33,12 @@ class PromoController extends Controller {
 	 * @return View
 	 */
 	public function create(): View {
-		return \view("promo.create", ["students_list" => Student::all()]);
+		return \view(
+			"promo.create",
+			[
+				"students_list" => Student::all(),
+				"modules_list" => Module::all()
+			]);
 	}
 
 	/**
@@ -38,10 +52,10 @@ class PromoController extends Controller {
 		$promo->name = $request->name;
 		$promo->speciality = $request->speciality;
 		$promo->save();
-
+		$promo->modules()->attach($request->modules);
 		Student::whereIn('id', $request->students)->update(['promo_id'=>$promo->id]);
 
-		return redirect()->route("student.index");
+		return redirect()->route("promo.index");
 	}
 
 	/**
@@ -61,7 +75,13 @@ class PromoController extends Controller {
 	 * @return View
 	 */
 	public function edit(Promo $promo): View {
-		return \view("promo.edit", ["editing_promo" => $promo, "students_list" => Student::all()]);
+		return view(
+			"promo.edit",
+			[
+				"editing_promo" => $promo,
+				"students_list" => Student::all(),
+				"modules_list" => Module::all()
+			]);
 	}
 
 	/**
@@ -72,8 +92,16 @@ class PromoController extends Controller {
 	 * @return RedirectResponse
 	 */
 	public function update(Request $request, Promo $promo): RedirectResponse {
+		$promo->name = $request->name;
+		$promo->speciality = $request->speciality;
+		$promo->save();
+
+		$promo->modules()->detach();
+		$promo->modules()->attach($request->modules);
+
 		Student::where('promo_id', $promo->id)->update(['promo_id'=>null]);
 		Student::whereIn('id', $request->students)->update(['promo_id'=>$promo->id]);
+
 		return redirect()->route("promo.index");
 	}
 

@@ -1,7 +1,13 @@
 @extends("parts.index")
 
 @section("title") Students @endsection
-@section("header") Students at Fiction Ynov Campus: @endsection
+@section("header")
+	@if($search)
+		Students - Result for: {{ $search }}
+	@else
+		Students at Fiction Ynov Campus:
+	@endif
+@endsection
 @section("addButtonRoute") {{ route("student.create") }} @endsection
 @section("addButtonText") Add Student @endsection
 @section("tableHead")

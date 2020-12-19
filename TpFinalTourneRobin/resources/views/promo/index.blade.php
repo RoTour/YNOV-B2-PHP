@@ -1,7 +1,13 @@
 @extends("parts.index")
 
 @section("title") Promotions @endsection
-@section("header") Promotions at Fiction Ynov Campus:  @endsection
+@section("header")
+	@if($search)
+		Promotions - Result for: {{ $search }}
+	@else
+		Promotions at Fiction Ynov Campus:
+	@endif
+@endsection
 @section("addButtonRoute") {{ route("promo.create") }} @endsection
 @section("addButtonText") Add Promo @endsection
 @section("tableHead")

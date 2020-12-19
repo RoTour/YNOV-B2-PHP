@@ -5,7 +5,7 @@
 @endsection
 @section("content")
 	<div class="container">
-
+		<h2 class="font-weight-bold">@yield("header")</h2>
 		<form method="POST" action="@yield("action")">
 			@csrf
 			@yield("method")
@@ -19,6 +19,18 @@
 					<input type="text" class="form-control" id="speciality" name="speciality" value="@yield("speciality")"
 								 required>
 				</div>
+			</div>
+
+			<p class="font-weight-bold mt-3 font" style="font-size: 2em">Modules : </p>
+			<div class="row col-12">
+				@foreach($modules_list as $module)
+					<div class="form-check col-3">
+						<input type="checkbox" class="form-check-input" name="modules[]" value="{{ $module->id }}"
+									 id="module-{{ $module->id }}"
+									 @if(isset($editing_promo) && $editing_promo->modules->contains($module->id)) checked @endif>
+						<label class="form-check-label" for="module-{{ $module->id }}">{{ $module->name }}</label>
+					</div>
+				@endforeach
 			</div>
 
 			<p class="font-weight-bold mt-3 font" style="font-size: 2em">Students : </p>

@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4c75fc1-db72-4271-a466-0bf7109e338a" name="Default Changelist" comment="Completed CRUD for Promo&#10;+ OneToManyRelation between Promo and Student">
-      <change afterPath="$PROJECT_DIR$/resources/views/module/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/module/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/module/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/module/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/module/show.blade.php" afterDir="false" />
+    <list default="true" id="f4c75fc1-db72-4271-a466-0bf7109e338a" name="Default Changelist" comment="Completed crud for Module&#10;Added some relations ManyToMany (need to update older edit pages)">
+      <change beforePath="$PROJECT_DIR$/../Contact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Contact/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP1PhpCrud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1PhpCrud/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ModuleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ModuleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Module.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PromoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PromoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/module/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/module/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/promo/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/promo/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/promo/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/promo/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/promo/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/promo/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/promo/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/promo/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/student/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/student/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/student/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -174,7 +176,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608365762014</updated>
-      <workItem from="1608365764008" duration="22003000" />
+      <workItem from="1608365764008" duration="25711000" />
+      <workItem from="1608410186778" duration="960000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with models created (-a)">
       <created>1608366021801</created>
@@ -211,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608388636452</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Completed crud for Module&#10;Added some relations ManyToMany (need to update older edit pages)">
+      <created>1608393706605</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608393706605</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +237,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -235,7 +246,8 @@
     <MESSAGE value="on file was missing (Promo.php)" />
     <MESSAGE value="Completed CRUD for Student" />
     <MESSAGE value="Completed CRUD for Promo&#10;+ OneToManyRelation between Promo and Student" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed CRUD for Promo&#10;+ OneToManyRelation between Promo and Student" />
+    <MESSAGE value="Completed crud for Module&#10;Added some relations ManyToMany (need to update older edit pages)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed crud for Module&#10;Added some relations ManyToMany (need to update older edit pages)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

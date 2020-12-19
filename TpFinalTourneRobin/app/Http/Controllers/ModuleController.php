@@ -13,10 +13,17 @@ class ModuleController extends Controller {
 	/**
 	 * Display a listing of the resource.
 	 *
+	 * @param Request $request
 	 * @return View
 	 */
-	public function index(): View {
-		return view("module.index", ["modules" => Module::all()]);
+	public function index(Request $request): View {
+		$search = $request->get("search");
+		if($search){
+			$modules = Module::where('name', 'like', '%'.$search.'%')
+				->get();
+		} else { $modules = Module::all(); }
+
+		return view("module.index", ["modules" => $modules, "search" => $search]);
 	}
 
 	/**
