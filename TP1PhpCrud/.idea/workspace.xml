@@ -23,29 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b092741-5866-485e-bbd1-39af3f4c9089" name="Default Changelist" comment="add mail + many other things">
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/.idea/dataSources/15af58f2-7145-478c-9416-9a431e3443b0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/.idea/dataSources/15af58f2-7145-478c-9416-9a431e3443b0/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Controllers/ModuleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Controllers/PromoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Controllers/StudentController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/factories/ModuleFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/factories/StudentFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/migrations/2020_12_19_081913_create_modules_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/migrations/2020_12_19_081930_create_students_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/migrations/2020_12_19_082933_create_pivot_table_between_modules_promos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/migrations/2020_12_19_082952_create_pivot_table_between_modules_students.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/seeds/ModuleSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/seeds/StudentSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Promo.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Module.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/database/factories/PromoFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/factories/PromoFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/database/migrations/2020_12_19_081851_create_promos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/migrations/2020_12_19_081851_create_promos_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/database/seeds/PromoSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/database/seeds/PromoSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
