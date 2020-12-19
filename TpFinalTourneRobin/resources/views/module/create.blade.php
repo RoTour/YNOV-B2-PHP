@@ -1,0 +1,3 @@
+@extends("module.form")
+@section("title")Add Module @endsection
+@section("action"){{ route("module.store") }} @endsection
