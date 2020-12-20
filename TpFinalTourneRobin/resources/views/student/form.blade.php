@@ -5,6 +5,7 @@
 @endsection
 @section("content")
 	<div class="container">
+		<h2 class="font-weight-bold">@yield("header")</h2>
 		<form method="POST" action="@yield("action")">
 			@csrf
 			@yield("method")
