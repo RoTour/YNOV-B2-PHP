@@ -18,11 +18,11 @@ class ModuleController extends Controller {
 	 */
 	public function index(Request $request): View {
 		$search = $request->get("search");
-		if($search){
-			$modules = Module::where('name', 'like', '%'.$search.'%')
-				->get();
-		} else { $modules = Module::all(); }
-
+		if ($search) {
+			$modules = Module::where('name', 'like', '%' . $search . '%')->get();
+		} else {
+			$modules = Module::all();
+		}
 		return view("module.index", ["modules" => $modules, "search" => $search]);
 	}
 
@@ -33,11 +33,7 @@ class ModuleController extends Controller {
 	 */
 	public function create(): View {
 		return view(
-			"module.create",
-			[
-				"students_list" => Student::all(),
-				"promos_list" => Promo::all()
-			]
+			"module.create", ["students_list" => Student::all(), "promos_list" => Promo::all()]
 		);
 	}
 

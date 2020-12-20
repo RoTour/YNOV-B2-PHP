@@ -9,7 +9,7 @@ class StudentSeeder extends Seeder {
      * @return void
      */
     public function run() {
-        factory(\App\Student::class, 200)->create()->each(function ($item) {
+        factory(\App\Student::class, 20)->create()->each(function ($item) {
             $item->save();
         });
     }

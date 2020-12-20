@@ -1,5 +1,6 @@
 <?php
 
+use App\Promo;
 use Illuminate\Database\Seeder;
 
 class PromoSeeder extends Seeder {
@@ -9,7 +10,7 @@ class PromoSeeder extends Seeder {
      * @return void
      */
     public function run() {
-        factory(\App\Promo::class, 10)->create()->each(function ($item) {
+        factory(Promo::class, 10)->create()->each(function ($item) {
             $item->save();
         });
     }

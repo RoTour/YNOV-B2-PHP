@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Module;
 use App\Promo;
 use App\Student;
+use Exception;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
@@ -18,12 +19,13 @@ class PromoController extends Controller {
 	 */
 	public function index(Request $request): View {
 		$search = $request->get("search");
-		if($search){
-			$promos = Promo::where('name', 'like', '%'.$search.'%')
-				->orWhere('speciality', 'like', '%'.$search.'%')
+		if ($search) {
+			$promos = Promo::where('name', 'like', '%' . $search . '%')
+				->orWhere('speciality', 'like', '%' . $search . '%')
 				->get();
-		} else { $promos = Promo::all(); }
-
+		} else {
+			$promos = Promo::all();
+		}
 		return view("promo.index", ["promos_list" => $promos, "search" => $search]);
 	}
 
@@ -110,9 +112,9 @@ class PromoController extends Controller {
 	 *
 	 * @param Promo $promo
 	 * @return RedirectResponse
-	 * @throws \Exception
+	 * @throws Exception
 	 */
-	public function destroy(Promo $promo) {
+	public function destroy(Promo $promo): RedirectResponse {
 		Student::where('promo_id', $promo->id)->update(['promo_id'=>null]);
 		$promo->delete();
 		return redirect()->route("promo.index");

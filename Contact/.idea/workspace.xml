@@ -23,17 +23,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP1PhpCrud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1PhpCrud/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Controllers/ModuleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Controllers/ModuleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Controllers/PromoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Controllers/PromoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Controllers/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/app/Http/Controllers/StudentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/module/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/module/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/module/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/module/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/promo/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/promo/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/promo/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/promo/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/promo/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/promo/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/promo/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/promo/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/student/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/student/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/student/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/student/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/student/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin/resources/views/student/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +191,7 @@
       <workItem from="1606381296101" duration="1156000" />
       <workItem from="1606484744944" duration="33000" />
       <workItem from="1608382239513" duration="802000" />
-      <workItem from="1608410277986" duration="739000" />
+      <workItem from="1608410277986" duration="1092000" />
     </task>
     <task id="LOCAL-00001" summary="added Create connected to db">
       <created>1605621460982</created>

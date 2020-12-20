@@ -1,21 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4c75fc1-db72-4271-a466-0bf7109e338a" name="Default Changelist" comment="Completed crud for Module&#10;Added some relations ManyToMany (need to update older edit pages)">
+    <list default="true" id="f4c75fc1-db72-4271-a466-0bf7109e338a" name="Default Changelist" comment="add searches for Students, Modules and Promos">
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/.idea/tp_final.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Http/Controllers/ModuleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Http/Controllers/PromoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Http/Controllers/StudentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Module.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Promo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/app/Student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/database/factories/ModuleFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/database/factories/PromoFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/database/factories/StudentFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/database/migrations/2020_12_19_132048_create_promos_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/database/migrations/2020_12_19_133042_create_modules_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/database/migrations/2020_12_19_133415_add_pivot_table_between_module_and_student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/database/migrations/2020_12_19_133426_add_pivot_table_between_module_and_promo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/database/migrations/2020_12_19_173751_create_students_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/database/seeds/ModuleSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/database/seeds/PromoSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/database/seeds/StudentSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/views/base.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/views/module/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/views/module/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/views/module/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/views/module/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/views/navbar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/views/promo/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/views/promo/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/views/promo/error.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/views/promo/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/views/promo/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/views/student/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/views/student/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/views/student/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/views/student/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tp_final/webpack.mix.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Contact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Contact/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP1PhpCrud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1PhpCrud/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ModuleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ModuleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PromoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PromoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/module/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/module/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/promo/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/promo/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/promo/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/promo/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/promo/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/promo/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/promo/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/promo/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/student/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/student/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/student/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/StudentSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/StudentSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +263,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tp_final" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -177,7 +288,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608365762014</updated>
       <workItem from="1608365764008" duration="25711000" />
-      <workItem from="1608410186778" duration="960000" />
+      <workItem from="1608410186778" duration="1968000" />
+      <workItem from="1608450672142" duration="1675000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with models created (-a)">
       <created>1608366021801</created>
@@ -221,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608393706605</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add searches for Students, Modules and Promos">
+      <created>1608411386319</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608411386319</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +366,8 @@
     <MESSAGE value="Completed CRUD for Student" />
     <MESSAGE value="Completed CRUD for Promo&#10;+ OneToManyRelation between Promo and Student" />
     <MESSAGE value="Completed crud for Module&#10;Added some relations ManyToMany (need to update older edit pages)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed crud for Module&#10;Added some relations ManyToMany (need to update older edit pages)" />
+    <MESSAGE value="add searches for Students, Modules and Promos" />
+    <option name="LAST_COMMIT_MESSAGE" value="add searches for Students, Modules and Promos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
