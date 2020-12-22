@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('student.index', ["students" => Student::all()]);
+    return view('student.index', ["students" => Student::all(), "search" => null]);
 });
 
 Route::resource("student", "StudentController");

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4c75fc1-db72-4271-a466-0bf7109e338a" name="Default Changelist" comment="Updated some seeders + cleaning code">
+    <list default="true" id="f4c75fc1-db72-4271-a466-0bf7109e338a" name="Default Changelist" comment="add headers to Create and edit pages">
       <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +167,9 @@
       <workItem from="1608365764008" duration="25711000" />
       <workItem from="1608410186778" duration="1968000" />
       <workItem from="1608450672142" duration="2488000" />
+      <workItem from="1608472833531" duration="846000" />
+      <workItem from="1608552001021" duration="1232000" />
+      <workItem from="1608640327774" duration="66000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with models created (-a)">
       <created>1608366021801</created>
@@ -223,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608453274534</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add headers to Create and edit pages">
+      <created>1608473077947</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608473077947</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +263,8 @@
     <MESSAGE value="add searches for Students, Modules and Promos" />
     <MESSAGE value="Updated some seeders" />
     <MESSAGE value="Updated some seeders + cleaning code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated some seeders + cleaning code" />
+    <MESSAGE value="add headers to Create and edit pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add headers to Create and edit pages" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
