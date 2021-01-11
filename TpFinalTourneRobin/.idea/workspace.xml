@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4c75fc1-db72-4271-a466-0bf7109e338a" name="Default Changelist" comment="add headers to Create and edit pages">
-      <change beforePath="$PROJECT_DIR$/../TpFinalTourneRobin.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../TpFinalTourneRobin.zip" afterDir="false" />
+    <list default="true" id="f4c75fc1-db72-4271-a466-0bf7109e338a" name="Default Changelist" comment="$search wasn't initialized in the default route - set to null">
+      <change afterPath="$PROJECT_DIR$/../TpFinalTourneRobin.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +140,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tp_final" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UnityCV" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -170,6 +170,9 @@
       <workItem from="1608472833531" duration="846000" />
       <workItem from="1608552001021" duration="1232000" />
       <workItem from="1608640327774" duration="66000" />
+      <workItem from="1608640821370" duration="1022000" />
+      <workItem from="1608978141985" duration="534000" />
+      <workItem from="1609662412334" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with models created (-a)">
       <created>1608366021801</created>
@@ -234,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608473077947</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="$search wasn't initialized in the default route - set to null">
+      <created>1608640887497</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608640887497</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +274,8 @@
     <MESSAGE value="Updated some seeders" />
     <MESSAGE value="Updated some seeders + cleaning code" />
     <MESSAGE value="add headers to Create and edit pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="add headers to Create and edit pages" />
+    <MESSAGE value="$search wasn't initialized in the default route - set to null" />
+    <option name="LAST_COMMIT_MESSAGE" value="$search wasn't initialized in the default route - set to null" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
